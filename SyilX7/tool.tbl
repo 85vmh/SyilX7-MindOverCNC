@@ -1,13 +1,12 @@
-;Tool  Pocket Z Offset     Diameter     Remark
-T1     P1     Z-25.774953  D+5.000000   ; franken 4 flutes
-T2     P2     Z-1.405500   D+4.000000   ; twist drill
-T3     P3     Z-75.303700  D+63.000000  ; face mill
-T4     P4     Z-35.984511  D+6.000000   ; chamfer mill
-T5     P5     Z+347.207300 D+3.300000   ; twist drill
-T6     P6     Z+0.000000   D+18.180000  ; 5mm radius mill
-T7     P7     Z+0.000000   D+14.000000  ; ball end mill
-T8     P8     Z+17.442114  D+0.000000   ; Drill chuck
-T9     P9     Z-12.538261  D+8.000000   ; comment
-T11    P11    Z+333.655800 D+4.000000   ; comment
-T12    P0     Z-31.427177  D+3.000000   ; 2 flutes carbide
-T13    P0     Z+0.000000   D+0.000000   ; test adding
+T1 P1 D5.000000 Z-25.774953 ; franken 4 flutes
+T2 P2 D4.000000 Z-644.783750 ; twist drill
+T3 P3 D63.000000 Z-75.303700 ; face mill
+T4 P4 D6.000000 Z-35.984511 ; chamfer mill
+T5 P5 D3.300000 Z+347.207300 ; twist drill
+T6 P6 D18.180000 ; 5mm radius mill
+T7 P7 D14.000000 ; ball end mill
+T8 P8 Z+17.442114 ; Drill chuck
+T9 P9 D8.000000 Z-12.538261 ; comment
+T11 P11 D4.000000 Z+333.655800 ; comment
+T12 P0 D3.000000 Z-31.427177 ; 2 flutes carbide
+T13 P0 ; test adding

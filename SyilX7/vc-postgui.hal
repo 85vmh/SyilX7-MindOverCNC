@@ -7,4 +7,8 @@ net 	axis_3_max_vel	vc-p4s.ini.3.max.vel => ini.3.max_velocity
 #net 	axis_5_max_vel 	vc-p4s.ini.5.max.vel => ini.5.max_velocity
 
 
-
+#  ---manual tool change signals---
+net tool-change-request     iocontrol.0.tool-change       =>  qtpyvcp.tool-change-confirm
+net tool-change-confirmed   iocontrol.0.tool-changed      <=  qtpyvcp.tool-change-confirmed
+net tool-number             iocontrol.0.tool-prep-number  =>  qtpyvcp.tool-change-prep-number
+net tool-prepare-loopback   iocontrol.0.tool-prepare      =>  iocontrol.0.tool-prepared
