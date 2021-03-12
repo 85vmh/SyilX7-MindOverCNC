@@ -1,0 +1,1 @@
+pin+halui.estop.activate pin+halui.estop.is-activated pin+halui.estop.reset pin+iocontrol.0.user-enable-out pin+iocontrol.0.emc-enable-in pin+vc-p4s.estop.reset pin+vc-p4s.estop.is-activated pin+vc-p4s.estop.activate

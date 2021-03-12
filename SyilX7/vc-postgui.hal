@@ -12,3 +12,8 @@ net tool-change-request     iocontrol.0.tool-change       =>  qtpyvcp.tool-chang
 net tool-change-confirmed   iocontrol.0.tool-changed      <=  qtpyvcp.tool-change-confirmed
 net tool-number             iocontrol.0.tool-prep-number  =>  qtpyvcp.tool-change-prep-number
 net tool-prepare-loopback   iocontrol.0.tool-prepare      =>  iocontrol.0.tool-prepared
+
+net touch_probe.sensor_plugged => mindovercnc.touch-probe.probe-plugged
+net touch_probe.sensor_tripped => mindovercnc.touch-probe.probe-tripped
+
+#net tool_length.sensor_tripped =>qtpyvcp.tool-setter-touched.on
