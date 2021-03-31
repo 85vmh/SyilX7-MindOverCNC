@@ -1,14 +1,14 @@
 ;Tool  Pocket Z Offset     Diameter     Remark
-T1     P0     Z+0.000000   D+5.000000   ; franken 4 flutes
-T2     P0     Z+16.944334  D+4.000000   ; twist drill
+T1     P0     Z+102.550250 D+6.000000   ; franken 4 flutes
+T2     P0     Z+150.691917 D+4.000000   ; twist drill
 T3     P0     Z-75.303700  D+63.000000  ; face mill
 T4     P0     Z-35.984511  D+6.000000   ; chamfer mill
 T5     P0     Z+347.207300 D+3.300000   ; twist drill
 T6     P0     Z+0.000000   D+18.180000  ; 5mm radius mill
 T7     P0     Z+0.000000   D+14.000000  ; ball end mill
-T8     P0     Z+17.442114  D+0.000000   ; Drill chuck
+T8     P0     Z+135.425917 D+0.000000   ; Drill chuck
 T9     P0     Z+69.842249  D+8.000000   ; 4 flutes widia
 T11    P0     Z+333.655800 D+4.000000   ; comment
 T12    P0     Z-31.427177  D+3.000000   ; 2 flutes carbide
 T13    P0     Z+0.000000   D+0.000000   ; test adding
-T99    P0     Z+0.000000   D+2.000000   ; 3d finder probe
+T99    P0     Z+126.111583 D+2.000000   ; 3d finder probe
